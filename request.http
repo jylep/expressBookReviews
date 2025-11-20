@@ -1,0 +1,12 @@
+GET http://localhost:5000/ HTTP/1.1
+content-type: application/json
+
+###
+
+GET http://localhost:5000/isbn/1 HTTP/1.1
+content-type: application/json
+
+###
+
+GET http://localhost:5000/author/Unknown HTTP/1.1
+content-type: application/json
